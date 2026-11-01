@@ -1,0 +1,9 @@
+{
+  "expected_host": "REPLACE_WITH_CLOUD_HOST",
+  "account": "REPLACE_WITH_ACCOUNT_FOLDER_NAME",
+  "self_id": "REPLACE_WITH_SELF_WECHAT_ID",
+  "group_id": "REPLACE_WITH_GROUP_ID",
+  "group_name": "REPLACE_WITH_EXACT_GROUP_NAME",
+  "data_root": "C:/Users/YourUser/xwechat_files",
+  "maas_base": "https://YOUR_WORKSPACE.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+}

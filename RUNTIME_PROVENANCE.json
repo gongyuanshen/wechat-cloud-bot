@@ -1,0 +1,103 @@
+{
+  "source_root": "xwechat/src/wechat_decrypt_tool (local source checkout; not included)",
+  "destination": "vendor/xwechat_runtime",
+  "files": {
+    "__init__.py": {
+      "source_sha256": "97570913f11d4a860901ff2bde2e391da2d4b2e36c118043cde2a9a4a14c4da5",
+      "sha256": "97570913f11d4a860901ff2bde2e391da2d4b2e36c118043cde2a9a4a14c4da5",
+      "changes": []
+    },
+    "app_paths.py": {
+      "source_sha256": "fb9396b6e27839bde4f45594ed0f768904adba1e0a2044fc7f013c72e7ad2818",
+      "sha256": "fb9396b6e27839bde4f45594ed0f768904adba1e0a2044fc7f013c72e7ad2818",
+      "changes": []
+    },
+    "snapshot_events.py": {
+      "source_sha256": "eceae2debf64f18058ae993008a8057b9e794bfcfa95c77c51967713cefccc0b",
+      "sha256": "eceae2debf64f18058ae993008a8057b9e794bfcfa95c77c51967713cefccc0b",
+      "changes": []
+    },
+    "wechat_ui_bridge.py": {
+      "source_sha256": "1e1d2b256992f86c587f1c09efc9f02273ad7e9e0344eff9f00a8d4b4330c39d",
+      "sha256": "1e1d2b256992f86c587f1c09efc9f02273ad7e9e0344eff9f00a8d4b4330c39d",
+      "changes": []
+    },
+    "wechat_qt_ui.py": {
+      "source_sha256": "2fbbf866d58ceb4d82a41bdf218c2ef3ad2ba7c5a6d3f2d5987a5cdc3d98924a",
+      "sha256": "2fbbf866d58ceb4d82a41bdf218c2ef3ad2ba7c5a6d3f2d5987a5cdc3d98924a",
+      "changes": []
+    },
+    "ai/__init__.py": {
+      "source_sha256": "af930b35f1a35e192c90a35809fe8355ae8a09093d7bb7ad61be491635250112",
+      "sha256": "af930b35f1a35e192c90a35809fe8355ae8a09093d7bb7ad61be491635250112",
+      "changes": []
+    },
+    "ai/auto_reply.py": {
+      "source_sha256": "7ab9cc442cbfc30ffe528d434f019aaecfacc981269f378107b538e797e96aa3",
+      "sha256": "a7f6f213f87faf31559307de8691b09ce62f734ffeb5f51e38757d66da605540",
+      "changes": [
+        "Optional trigger_filter at the collection boundary; default behavior unchanged",
+        "Format-neutral reply-body wording; schema contract remains supplied by ModelService for schema callers"
+      ]
+    },
+    "ai/storage.py": {
+      "source_sha256": "4aebbb619a113e38f92c69376b4189a90ade5bd841d7782f87a81ae6e7393994",
+      "sha256": "4aebbb619a113e38f92c69376b4189a90ade5bd841d7782f87a81ae6e7393994",
+      "changes": []
+    },
+    "ai/providers.py": {
+      "source_sha256": "0e8146ac7cef70dbfcb9da6f30ca5064aa0caffaec46305772e5854866d42e3d",
+      "sha256": "f75b735cb8c6b60cf3b9a44c84b518a791cf6389ce8d0dad562615ec44d76a73",
+      "changes": [
+        "Strict plain-text calls reject non-string response content before coercion; schema and non-strict paths unchanged"
+      ]
+    },
+    "ai/diagnostics.py": {
+      "source_sha256": "8eda545e025bacafe4ccb52b4f15a0e6f48827060bd710525593d0cbad0780ce",
+      "sha256": "8eda545e025bacafe4ccb52b4f15a0e6f48827060bd710525593d0cbad0780ce",
+      "changes": []
+    },
+    "ai/model_catalog.py": {
+      "source_sha256": "0e0af9455f11082682e5160c3b7aa91345e61065c183951543cc22102a261323",
+      "sha256": "0e0af9455f11082682e5160c3b7aa91345e61065c183951543cc22102a261323",
+      "changes": []
+    },
+    "ai/model_execution.py": {
+      "source_sha256": "44a0b2f7558be9a8dd809a109eb768e619bc3ec0a20a373dc96064342ac479c2",
+      "sha256": "44a0b2f7558be9a8dd809a109eb768e619bc3ec0a20a373dc96064342ac479c2",
+      "changes": []
+    },
+    "ai/model_scheduler.py": {
+      "source_sha256": "896868ef6aa7ae00f167d3a4fa79506302ac579f22052f06b28e4ba4b02c4764",
+      "sha256": "896868ef6aa7ae00f167d3a4fa79506302ac579f22052f06b28e4ba4b02c4764",
+      "changes": []
+    },
+    "ai/model_reasoning.py": {
+      "source_sha256": "c01e02c725317f7d537a74e71d20e7b3534198cfa51badb326adccc9e3654307",
+      "sha256": "c01e02c725317f7d537a74e71d20e7b3534198cfa51badb326adccc9e3654307",
+      "changes": []
+    },
+    "ai/agent_budget.py": {
+      "source_sha256": "d9dff3c2078b5bee66fb31b7b2ec84a01e6701f16f5130ad35300dbe49aa9a0f",
+      "sha256": "d9dff3c2078b5bee66fb31b7b2ec84a01e6701f16f5130ad35300dbe49aa9a0f",
+      "changes": []
+    },
+    "ai/context_meter.py": {
+      "source_sha256": "6ec571ee861e771f56d657cbec3f9bdd4072b99a90add70ffd135da2e3680aa2",
+      "sha256": "6ec571ee861e771f56d657cbec3f9bdd4072b99a90add70ffd135da2e3680aa2",
+      "changes": []
+    },
+    "ai/messages.py": {
+      "source_sha256": "7efcb413bcd504fa43d2b0a11fe335c05a1f0d8196f4da1958c3c4613714a9cb",
+      "sha256": "82e7f928291e5a4da6559458ea04a6f5c4932a7ee065a011ec1e7aaa5c129db2",
+      "changes": [
+        "Extract only exact-source pure functions"
+      ],
+      "functions": [
+        "message_identity",
+        "filter_after",
+        "advance_cursor"
+      ]
+    }
+  }
+}

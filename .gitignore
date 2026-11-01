@@ -1,0 +1,47 @@
+# Local credentials, deployment identity and mention settings
+*.private.json
+bot-settings.json
+.env
+.env.*
+!.env.example
+
+# WeChat messages, keys, logs and generated output
+runtime/
+data/
+dist/
+wheels/
+.diagnostics/
+.backups/
+.superpowers/
+*.db
+*.db-*
+*.sqlite*
+*.key
+*.pem
+*.pfx
+*.p12
+*.log
+*_report*.json
+
+# Local Python environments and caches
+.*venv*/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local tests, historical prototypes and archives are intentionally not published
+test_*.py
+tests/
+bot.py
+config.json
+*.zip
+*.7z
+*.exe
+*.dll
+*.whl
+*.bak
+.DS_Store
+Thumbs.db
